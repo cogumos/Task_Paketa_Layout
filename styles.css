@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.29);
+  border-radius: 8px;
+  border-width: 100px;
+  width: 80%;
+  height: 300px;
+}
+
+.section_container {
+  width: 1240px;
+  display: flex;
+  justify-content: center;
+}
+
+.img_of_card {
+  width: 250px;
+}
