@@ -12,8 +12,8 @@ body {
   box-shadow: 0px 0px 8px 3px rgb(0 0 0 / 0.05);
   border-radius: 8px;
   border-width: 100px;
-  width: 80%;
-  height: 300px;
+  width: 90%;
+  height: 360px;
 }
 
 .section_container {
@@ -23,7 +23,7 @@ body {
 }
 
 .img_of_card {
-  width: 250px;
+  width: 360px;
 }
 
 #mid_section {
@@ -46,7 +46,7 @@ body {
   justify-content: space-between;
   align-items: center;
   display: flex;
-  width: 80%;
+  width: 90%;
   margin-bottom: 20px;
   height: 98px;
 }
@@ -54,7 +54,7 @@ body {
 .inferior_container {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 90%;
   margin-bottom: 50px;
 }
 
@@ -73,7 +73,7 @@ header {
   background-image: url("static/images/bg-hero-desktop.svg");
   background-size: cover;
   background-color: hsl(193, 100%, 96%);
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 #mockups {
@@ -104,7 +104,7 @@ header {
 }
 
 #white_btn_header {
-  color: hsl(208, 11%, 55%);
+  color: hsl(192, 100%, 9%);
   background-color: hsl(0, 0%, 100%);
   width: 150px;
   height: 40px;
@@ -116,10 +116,142 @@ header {
 }
 
 #white_btn_header:hover {
-  color: hsla(209, 11%, 55%, 0.89);
-  background-color: hsla(0, 0%, 100%, 0.5);
+  color: hsla(192, 100%, 9%, 0.582);
 }
 
 #logo {
   width: 150px;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1240px;
+  font-size: 14px;
+  margin-top: 300px;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+#container_footer {
+  width: 90%;
+}
+
+.link_icons {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.link_icons:hover {
+  color: hsl(322, 100%, 66%);
+}
+
+.icon_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.icon_img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+#business_data {
+  width: 380px;
+  font-size: 14px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.anchor_container {
+  text-decoration: none;
+  color: white;
+}
+
+.anchor_item {
+  text-decoration: none;
+  color: white;
+}
+
+.anchor_item:hover {
+  text-decoration: underline;
+}
+
+.mid_anchor {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#container_content {
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.media_container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 151px;
+}
+
+#white_logo {
+  width: 150px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 8px 3px rgb(0 0 0 / 0.05);
+  box-shadow: 0px 0px 8px 3px rgb(0 0 0 / 0.05);
+}
+
+.card_footer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border-width: 100px;
+  width: 57%;
+  height: 230px;
+  top: -45%;
+  background-color: white;
+}
+
+#card_title {
+  color: hsl(192, 100%, 9%);
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+
+#pink_btn_footer {
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  width: 350px;
+  height: 75px;
+  border-radius: 37px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
 }
