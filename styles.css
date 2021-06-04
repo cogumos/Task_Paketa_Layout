@@ -93,6 +93,7 @@ header {
 #pink_btn_header:hover {
   color: rgba(255, 255, 255, 0.808);
   background-color: hsla(322, 100%, 66%, 0.5);
+  cursor: pointer;
 }
 
 #second_title {
@@ -117,6 +118,7 @@ header {
 
 #white_btn_header:hover {
   color: hsla(192, 100%, 9%, 0.582);
+  cursor: pointer;
 }
 
 #logo {
@@ -155,6 +157,7 @@ footer {
 
 .link_icons:hover {
   color: hsl(322, 100%, 66%);
+  cursor: pointer;
 }
 
 .icon_container {
@@ -254,4 +257,10 @@ footer {
   border: none;
   font-weight: 700;
   font-size: 20px;
+}
+
+#pink_btn_footer:hover {
+  color: rgba(255, 255, 255, 0.808);
+  background-color: hsla(322, 100%, 66%, 0.5);
+  cursor: pointer;
 }
